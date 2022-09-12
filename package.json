@@ -1,1 +1,23 @@
-{}
+{
+  "name": "typescript",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "tsc",
+    "dev": "nodemon --exec ts-node src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sockwon/ts.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sockwon/ts/issues"
+  },
+  "homepage": "https://github.com/sockwon/ts#readme",
+  "description": "",
+  "devDependencies": {
+    "@types/node": "^18.7.16"
+  }
+}
